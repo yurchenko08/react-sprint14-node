@@ -1,0 +1,23 @@
+{
+  "name": "task1-node-team-nr-5",
+  "version": "1.0.0",
+  "description": "Implement an http server (you can use ExpressJS) that initiates asynchronous operations when a GET request is made:\r - Continuous output to the server console of the current UTC date and time at certain intervals.\r - Stopping the console time output after a while and completing the server response with the return to the user a current UTC date and time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/React-14-node-ajax/task1-node-team-nr-5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/React-14-node-ajax/task1-node-team-nr-5/issues"
+  },
+  "homepage": "https://github.com/React-14-node-ajax/task1-node-team-nr-5#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
