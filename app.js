@@ -8,9 +8,12 @@ const timerOut = argv.t;
 
 app.get('/', (req, res) => {
   const timer = setInterval(() => console.log(currentTime()), interval);
-  setTimeout(() => clearInterval(timer), timerOut);
-  setTimeout(() => res.send(currentTime()), timerOut);
+  setTimeout(() => {
+    clearInterval(timer);
+    res.send(currentTime());
+  }, timerOut);
 });
+
 app.listen(PORT, () => {
   console.log(`server is listening on ${PORT}`);
 });
